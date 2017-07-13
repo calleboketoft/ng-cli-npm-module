@@ -1,10 +1,10 @@
-import { MyModulePage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('my-module App', () => {
-  let page: MyModulePage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new MyModulePage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {

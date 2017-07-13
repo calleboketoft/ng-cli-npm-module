@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-component',
   template: `
-    <h1>Hello, my-module here!</h1>
+    <p>My component</p>
   `
 })
 export class MyComponent {
