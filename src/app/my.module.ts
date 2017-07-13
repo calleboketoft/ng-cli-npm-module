@@ -10,6 +10,9 @@ import { MyComponent } from './my.component';
   imports: [
     BrowserModule
   ],
+  exports: [
+    MyComponent
+  ],
   providers: [],
   bootstrap: [MyComponent]
 })
